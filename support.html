@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Tru Inspect | Viera Life LLC</title>
+<style>
+  :root{
+    --bg:#ffffff; --panel:#f6f7f9; --ink:#16191d; --muted:#5b6470;
+    --rule:#e2e5ea; --accent:#1d4e6f; --accent-ink:#ffffff;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#121417; --panel:#1a1d21; --ink:#e8eaed; --muted:#9aa4b0;
+      --rule:#2a2f35; --accent:#7fb5d6; --accent-ink:#10222e;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px}
+  header{border-bottom:1px solid var(--rule);padding-bottom:24px;margin-bottom:32px}
+  .eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+  h1{font-size:31px;line-height:1.2;margin:0 0 10px;letter-spacing:-.02em}
+  .lede{font-size:18px;line-height:1.6;color:var(--ink);margin:0}
+  h2{font-size:20px;margin:40px 0 12px;letter-spacing:-.01em}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px;padding-left:22px}
+  li{margin-bottom:7px}
+  a{color:var(--accent)}
+  .contact{
+    background:var(--panel);border:1px solid var(--rule);border-radius:8px;
+    padding:24px;margin:28px 0;text-align:center;
+  }
+  .contact .label{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  .contact .addr{font-size:21px;font-weight:600;margin:0 0 10px;word-break:break-word}
+  .contact .addr a{text-decoration:none}
+  .contact .note{font-size:14px;color:var(--muted);margin:0}
+  .q{
+    border:1px solid var(--rule);border-radius:8px;padding:18px 20px;margin:0 0 12px;
+    background:var(--panel);
+  }
+  .q h3{margin:0 0 8px;font-size:16px}
+  .q p:last-child{margin-bottom:0}
+  .steps{counter-reset:s;list-style:none;padding-left:0}
+  .steps li{counter-increment:s;position:relative;padding-left:34px;margin-bottom:12px}
+  .steps li::before{
+    content:counter(s);position:absolute;left:0;top:1px;
+    width:23px;height:23px;border-radius:50%;background:var(--accent);color:var(--accent-ink);
+    font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;
+  }
+  footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--rule);color:var(--muted);font-size:14px}
+  footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Viera Life LLC</p>
+  <h1>Tru Inspect Support</h1>
+  <p class="lede">Built by a working Florida inspector. If something isn't right, tell us — you'll be talking to the person who wrote the app.</p>
+</header>
+
+<div class="contact">
+  <p class="label">Email support</p>
+  <p class="addr"><a href="mailto:support@vieralife.app">support@vieralife.app</a></p>
+  <p class="note">We aim to reply within one business day.</p>
+</div>
+
+<h2>What to include</h2>
+<p>The more of this you can give us, the faster we can fix it:</p>
+<ul>
+  <li>Which inspection type you were working on — Wind Mitigation, Four-Point, Roof Certification, WDO, or Full Home</li>
+  <li>What you expected to happen, and what happened instead</li>
+  <li>Your device and iPadOS or iOS version</li>
+  <li>A screenshot, if the problem is something you can see</li>
+</ul>
+<p><strong>Please don't send us client information or completed inspection reports.</strong> We don't need them to help you, and we would rather not have them. A screenshot with the client's name blocked out is plenty.</p>
+
+<h2>Common questions</h2>
+
+<div class="q">
+  <h3>My inspections aren't showing up on my other device</h3>
+  <p>Tru Inspect syncs through your own iCloud account, so both devices need to be signed into the same Apple Account with iCloud Drive turned on. Check <strong>Settings &rsaquo; [your name] &rsaquo; iCloud</strong> on each device and confirm Tru Inspect is enabled. Sync also needs a network connection — inspections created in a house with no signal will appear once the device is back online.</p>
+</div>
+
+<div class="q">
+  <h3>Can I use the app with no signal?</h3>
+  <p>Yes. Everything is stored on the device first. You can run a complete inspection, take photos, and capture signatures with no connection at all. Syncing happens later, on its own.</p>
+</div>
+
+<div class="q">
+  <h3>Where do my inspection reports go?</h3>
+  <p>Each inspection renders to a PDF you can share from the device — email it, save it to Files, or send it however you normally deliver reports. The report is generated on your device.</p>
+</div>
+
+<div class="q">
+  <h3>How do I manage or cancel my subscription?</h3>
+  <p>Subscriptions are handled by Apple, not by us. Open <strong>Settings &rsaquo; [your name] &rsaquo; Subscriptions</strong> on your device to change or cancel. Cancelling stops future renewals; you keep access until the current period ends. Refund requests also go through Apple, at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+</div>
+
+<div class="q">
+  <h3>Something on a form is wrong for my situation</h3>
+  <p>Tell us — specifically. Tru Inspect renders the official Florida forms, and if a field doesn't accommodate a real-world case you've run into, that's worth fixing properly. Name the form and the field and we'll look at it.</p>
+</div>
+
+<h2>Reporting a problem with a form</h2>
+<p>If a rendered PDF doesn't match what the carrier or the state expects, that's the most important kind of bug we can receive. When you report one:</p>
+<ol class="steps">
+  <li>Name the form — OIR-B1-1802, the Citizens four-point, RCF-1, or DACS-13645.</li>
+  <li>Tell us which field or section is wrong.</li>
+  <li>Describe what it should say instead.</li>
+</ol>
+<p>You don't need to send the filled report. A description of the field and the correct behaviour is enough.</p>
+
+<h2>Requesting a feature</h2>
+<p>Feature requests are welcome at the same address. Requests that come with the situation attached — "on a mobile home there's no roof permit date, so I need to enter text instead" — are far more useful than a bare feature name, and they're the ones that get built.</p>
+
+<footer>
+  <p>Viera Life LLC &middot; Florida, United States<br>
+  <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/">vieralife.app</a></p>
+</footer>
+
+</div>
+</body>
+</html>
