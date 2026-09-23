@@ -5,78 +5,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About — Viera Life LLC</title>
 <meta name="description" content="Viera Life LLC is a Florida software company owned by James Hemelgarn, a working home inspector in Brevard County.">
-<style>
-  :root{
-    --bg:#ffffff; --panel:#f6f7f9; --ink:#16191d; --muted:#5b6470;
-    --rule:#e2e5ea; --accent:#1d4e6f;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#121417; --panel:#1a1d21; --ink:#e8eaed; --muted:#9aa4b0;
-      --rule:#2a2f35; --accent:#7fb5d6;
-    }
-  }
-  *{box-sizing:border-box}
-  body{
-    margin:0; background:var(--bg); color:var(--ink);
-    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    -webkit-text-size-adjust:100%;
-  }
-  .wrap{max-width:720px;margin:0 auto;padding:40px 24px 96px}
-  nav{font-size:14px;display:flex;gap:18px;flex-wrap:wrap;margin:0 0 44px}
-  nav a{color:var(--muted);text-decoration:none}
-  nav a:hover{color:var(--accent)}
-  header{border-bottom:1px solid var(--rule);padding-bottom:24px;margin-bottom:32px}
-  .eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
-  h1{font-size:31px;line-height:1.2;margin:0 0 10px;letter-spacing:-.02em}
-  .lede{font-size:18px;line-height:1.6;margin:0}
-  h2{font-size:20px;margin:40px 0 12px;letter-spacing:-.01em}
-  p{margin:0 0 14px}
-  ul{margin:0 0 14px;padding-left:22px}
-  li{margin-bottom:7px}
-  a{color:var(--accent)}
-  table{width:100%;border-collapse:collapse;margin:18px 0;font-size:15px}
-  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
-  th{font-weight:600;color:var(--muted);font-size:13px;letter-spacing:.03em;text-transform:uppercase;width:34%}
-  .contact{
-    background:var(--panel);border:1px solid var(--rule);border-radius:8px;
-    padding:24px;margin:28px 0;
-  }
-  .contact .label{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
-  .contact .row{font-size:17px;font-weight:600;margin:0 0 8px;word-break:break-word}
-  .contact .row a{text-decoration:none}
-  .contact .note{font-size:14px;color:var(--muted);margin:10px 0 0;font-weight:400}
-  footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--rule);color:var(--muted);font-size:14px}
-  footer a{color:var(--accent)}
-</style>
+<link rel="stylesheet" href="/site.css">
+<link rel="icon" href="/favicon-64.png" sizes="64x64">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#1C1C2E">
 </head>
 <body>
+
+<div class="topbar">
+  <div class="inner">
+    <a class="brand" href="/"><img src="/tru-inspect-icon.png" alt=""><span>Viera Life</span></a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/tru-inspect.html">Tru Inspect</a>
+      <a href="/about.html" aria-current="page">About</a>
+      <a href="/support.html">Support</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </div>
+</div>
+
 <div class="wrap">
 
-<nav>
-  <a href="/">Home</a>
-  <a href="/tru-inspect.html">Tru Inspect</a>
-  <a href="/about.html">About</a>
-  <a href="/support.html">Support</a>
-  <a href="/privacy.html">Privacy</a>
-</nav>
-
-<header>
+<header class="page">
   <p class="eyebrow">Viera Life LLC</p>
   <h1>About the company</h1>
   <p class="lede">A one-person software company on Florida's Space Coast, building the tools its owner uses for a living.</p>
 </header>
 
 <h2>The company</h2>
-<p>Viera Life LLC is a Florida limited liability company based in Brevard County. It exists to build and publish software for the inspection trades. Its first and current product is <a href="/tru-inspect.html">Tru Inspect</a>, an iPad application for Florida home inspectors.</p>
+<p>Viera Life LLC is a Florida limited liability company based in Brevard County. It exists to build and publish software for the inspection trades. Its first and current product is <a href="/tru-inspect.html">Tru Inspect</a>, an iPhone and iPad application for Florida home inspectors.</p>
 
 <div class="scroll">
-<table>
+<table class="facts">
   <tr><th>Legal name</th><td>Viera Life LLC</td></tr>
   <tr><th>Type</th><td>Florida limited liability company</td></tr>
   <tr><th>Location</th><td>Brevard County, Florida, United States</td></tr>
   <tr><th>Owner</th><td>James Hemelgarn</td></tr>
-  <tr><th>Product</th><td>Tru Inspect (iPadOS and iOS)</td></tr>
+  <tr><th>Product</th><td>Tru Inspect (iOS and iPadOS)</td></tr>
   <tr><th>Contact</th><td><a href="mailto:support@vieralife.app">support@vieralife.app</a> &middot; <a href="tel:+13212363049">321-236-3049</a></td></tr>
 </table>
 </div>
@@ -87,7 +53,7 @@
 
 <h2>Why the software exists</h2>
 <p>Florida residential inspection runs on a small set of official forms — the uniform mitigation verification form, the four-point, the roof certification, the state WDO report — and on a full home inspection performed to the Florida standards of practice. Every one of those has a prescribed output. The work of an inspector is observing the house; the drudgery is transcribing those observations into the right boxes afterwards.</p>
-<p>Tru Inspect removes the transcription step. The inspector records what they see, once, on the iPad in their hand, and the app renders it onto the correct form.</p>
+<p>Tru Inspect removes the transcription step. The inspector records what they see, once, on the device in their hand, and the app renders it onto the correct form.</p>
 
 <h2>How we operate</h2>
 <ul>

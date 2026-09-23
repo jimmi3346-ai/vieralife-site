@@ -4,76 +4,35 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Support — Tru Inspect | Viera Life LLC</title>
-<style>
-  :root{
-    --bg:#ffffff; --panel:#f6f7f9; --ink:#16191d; --muted:#5b6470;
-    --rule:#e2e5ea; --accent:#1d4e6f; --accent-ink:#ffffff;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#121417; --panel:#1a1d21; --ink:#e8eaed; --muted:#9aa4b0;
-      --rule:#2a2f35; --accent:#7fb5d6; --accent-ink:#10222e;
-    }
-  }
-  *{box-sizing:border-box}
-  body{
-    margin:0; background:var(--bg); color:var(--ink);
-    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    -webkit-text-size-adjust:100%;
-  }
-  nav{font-size:14px;display:flex;gap:18px;flex-wrap:wrap;margin:0 0 40px}
-  nav a{color:var(--muted);text-decoration:none}
-  nav a:hover{color:var(--accent)}
-  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px}
-  header{border-bottom:1px solid var(--rule);padding-bottom:24px;margin-bottom:32px}
-  .eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
-  h1{font-size:31px;line-height:1.2;margin:0 0 10px;letter-spacing:-.02em}
-  .lede{font-size:18px;line-height:1.6;color:var(--ink);margin:0}
-  h2{font-size:20px;margin:40px 0 12px;letter-spacing:-.01em}
-  p{margin:0 0 14px}
-  ul{margin:0 0 14px;padding-left:22px}
-  li{margin-bottom:7px}
-  a{color:var(--accent)}
-  .contact{
-    background:var(--panel);border:1px solid var(--rule);border-radius:8px;
-    padding:24px;margin:28px 0;text-align:center;
-  }
-  .contact .label{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
-  .contact .addr{font-size:21px;font-weight:600;margin:0 0 10px;word-break:break-word}
-  .contact .addr a{text-decoration:none}
-  .contact .note{font-size:14px;color:var(--muted);margin:0}
-  .q{
-    border:1px solid var(--rule);border-radius:8px;padding:18px 20px;margin:0 0 12px;
-    background:var(--panel);
-  }
-  .q h3{margin:0 0 8px;font-size:16px}
-  .q p:last-child{margin-bottom:0}
-  .steps{counter-reset:s;list-style:none;padding-left:0}
-  .steps li{counter-increment:s;position:relative;padding-left:34px;margin-bottom:12px}
-  .steps li::before{
-    content:counter(s);position:absolute;left:0;top:1px;
-    width:23px;height:23px;border-radius:50%;background:var(--accent);color:var(--accent-ink);
-    font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;
-  }
-  footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--rule);color:var(--muted);font-size:14px}
-  footer a{color:var(--accent)}
-</style>
+<link rel="stylesheet" href="/site.css">
+<link rel="icon" href="/favicon-64.png" sizes="64x64">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#1C1C2E">
 </head>
 <body>
+
+<div class="topbar">
+  <div class="inner">
+    <a class="brand" href="/"><img src="/tru-inspect-icon.png" alt=""><span>Viera Life</span></a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/tru-inspect.html">Tru Inspect</a>
+      <a href="/about.html">About</a>
+      <a href="/support.html" aria-current="page">Support</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </div>
+</div>
+
 <div class="wrap">
 
-<nav>
-  <a href="/">Home</a>
-  <a href="/tru-inspect.html">Tru Inspect</a>
-  <a href="/about.html">About</a>
-  <a href="/support.html">Support</a>
-  <a href="/privacy.html">Privacy</a>
-</nav>
-
-<header>
+<header class="page with-icon">
+  <img class="icon" src="/tru-inspect-icon.png" alt="Tru Inspect app icon">
+  <div>
   <p class="eyebrow">Viera Life LLC</p>
   <h1>Tru Inspect Support</h1>
   <p class="lede">Built by a working Florida inspector. If something isn't right, tell us — you'll be talking to the person who wrote the app.</p>
+  </div>
 </header>
 
 <div class="contact">
@@ -88,7 +47,7 @@
 <ul>
   <li>Which inspection type you were working on — Wind Mitigation, Four-Point, Roof Certification, WDO, or Full Home</li>
   <li>What you expected to happen, and what happened instead</li>
-  <li>Your device and iPadOS or iOS version</li>
+  <li>Your device and its iOS or iPadOS version</li>
   <li>A screenshot, if the problem is something you can see</li>
 </ul>
 <p><strong>Please don't send us client information or completed inspection reports.</strong> We don't need them to help you, and we would rather not have them. A screenshot with the client's name blocked out is plenty.</p>

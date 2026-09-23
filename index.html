@@ -4,68 +4,46 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Viera Life LLC — Software for the inspection trades</title>
-<meta name="description" content="Viera Life LLC is an independent software company on Florida's Space Coast. We build Tru Inspect, an iPad app for Florida home inspectors.">
-<style>
-  :root{
-    --bg:#ffffff; --panel:#f6f7f9; --ink:#16191d; --muted:#5b6470;
-    --rule:#e2e5ea; --accent:#1d4e6f; --accent-ink:#ffffff;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#121417; --panel:#1a1d21; --ink:#e8eaed; --muted:#9aa4b0;
-      --rule:#2a2f35; --accent:#7fb5d6; --accent-ink:#10222e;
-    }
-  }
-  *{box-sizing:border-box}
-  body{
-    margin:0; background:var(--bg); color:var(--ink);
-    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    -webkit-text-size-adjust:100%;
-  }
-  .wrap{max-width:720px;margin:0 auto;padding:40px 24px 96px}
-  nav{font-size:14px;display:flex;gap:18px;flex-wrap:wrap;margin:0 0 44px}
-  nav a{color:var(--muted);text-decoration:none}
-  nav a:hover{color:var(--accent)}
-  .eyebrow{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
-  h1{font-size:34px;line-height:1.18;margin:0 0 16px;letter-spacing:-.025em}
-  .lede{font-size:18px;line-height:1.6;color:var(--muted);margin:0 0 8px;max-width:36em}
-  h2{font-size:21px;margin:46px 0 14px;letter-spacing:-.01em}
-  h3{font-size:16px;margin:0 0 6px}
-  p{margin:0 0 14px}
-  ul{margin:0 0 14px;padding-left:22px}
-  li{margin-bottom:7px}
-  a{color:var(--accent)}
-  .card{border:1px solid var(--rule);border-radius:8px;padding:18px 20px;margin:0 0 12px;background:var(--panel)}
-  .card p{margin:0;color:var(--muted);font-size:15px}
-  .contact{
-    background:var(--panel);border:1px solid var(--rule);border-radius:8px;
-    padding:24px;margin:28px 0;
-  }
-  .contact .label{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
-  .contact .row{font-size:17px;font-weight:600;margin:0 0 8px;word-break:break-word}
-  .contact .row a{text-decoration:none}
-  .contact .note{font-size:14px;color:var(--muted);margin:10px 0 0;font-weight:400}
-  footer{margin-top:60px;padding-top:24px;border-top:1px solid var(--rule);color:var(--muted);font-size:14px}
-  footer a{color:var(--accent)}
-</style>
+<meta name="description" content="Viera Life LLC is an independent software company on Florida's Space Coast. We build Tru Inspect, an iPhone and iPad app for Florida home inspectors.">
+<link rel="stylesheet" href="/site.css">
+<link rel="icon" href="/favicon-64.png" sizes="64x64">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#1C1C2E">
 </head>
 <body>
+
+<div class="topbar">
+  <div class="inner">
+    <a class="brand" href="/"><img src="/tru-inspect-icon.png" alt=""><span>Viera Life</span></a>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/tru-inspect.html">Tru Inspect</a>
+      <a href="/about.html">About</a>
+      <a href="/support.html">Support</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="inner">
+    <p class="eyebrow">Viera Life LLC</p>
+    <h1>Software for people who work in the field.</h1>
+    <p>An independent software company on Florida's Space Coast, building tools for the inspection trades. Our first product is Tru Inspect, an iPhone and iPad app for Florida home inspectors.</p>
+  </div>
+</div>
+
 <div class="wrap">
 
-<nav>
-  <a href="/">Home</a>
-  <a href="/tru-inspect.html">Tru Inspect</a>
-  <a href="/about.html">About</a>
-  <a href="/support.html">Support</a>
-  <a href="/privacy.html">Privacy</a>
-</nav>
+<div class="lockup" style="margin-top:44px">
+  <img src="/tru-inspect-icon.png" alt="Tru Inspect app icon">
+  <div>
+    <h2 style="margin:0 0 2px">Tru Inspect</h2>
+    <p>Florida inspections, captured on your iPhone or iPad and rendered onto the official forms.</p>
+  </div>
+</div>
 
-<p class="eyebrow">Viera Life LLC</p>
-<h1>Software for people who work in the field.</h1>
-<p class="lede">Viera Life is an independent software company on Florida's Space Coast, building tools for the inspection trades. Our first product is Tru Inspect, an iPad app for Florida home inspectors.</p>
-
-<h2>Tru Inspect</h2>
-<p>Florida inspectors spend their day on a ladder, in an attic, or under a house — and then spend their evening retyping what they found into a form. Tru Inspect closes that gap. Inspections are captured on an iPad at the property and rendered straight onto the official state and carrier forms, with photographs attached, ready to deliver before the inspector leaves the driveway.</p>
+<p>Florida inspectors spend their day on a ladder, in an attic, or under a house — and then spend their evening retyping what they found into a form. Tru Inspect closes that gap. Inspections are captured on the device in your hand — iPhone or iPad — at the property, and rendered straight onto the official state and carrier forms, with photographs attached, ready to deliver before the inspector leaves the driveway.</p>
 
 <p>It covers the five inspections that make up most Florida residential work:</p>
 
@@ -113,9 +91,9 @@
 
 <footer>
   <p>Viera Life LLC &middot; Florida, United States<br>
-  <a href="/tru-inspect.html">Tru Inspect</a> &middot;
-  <a href="/about.html">About</a> &middot;
-  <a href="/support.html">Support</a> &middot;
+  <a href="/tru-inspect.html">Tru Inspect</a><span class="sep">&middot;</span>
+  <a href="/about.html">About</a><span class="sep">&middot;</span>
+  <a href="/support.html">Support</a><span class="sep">&middot;</span>
   <a href="/privacy.html">Privacy Policy</a></p>
 </footer>
 
